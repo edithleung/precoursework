@@ -1,0 +1,110 @@
+html, body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  header {
+    padding: 0 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: 200;
+    margin: 0;
+  }
+  
+  header p {
+    padding: 0 0px;
+    margin: 0;
+  }
+
+  .page-title {
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  .page-description {
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .jumbotron {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url('https://scontent.fhkg4-1.fna.fbcdn.net/v/t31.0-8/13913960_10154359887224687_1572629154092722358_o.jpg?oh=fc51db65b817731e8a4aacf2feb29172&oe=5B04037C');
+    background-size: cover;
+    color: #ffffff;
+    height: 650px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 0 0 30px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 00px 0 20px;
+    color: #fff;
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 30px 0;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+  }
